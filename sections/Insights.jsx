@@ -1,15 +1,7 @@
 "use client";
-import { useState } from "react";
 import { motion } from "framer-motion";
-import {
-  ExploreCard,
-  TypingText,
-  TitleText,
-  StartSteps,
-  NewFeatures,
-  InsightCard,
-} from "../components";
-import { fadeIn, slideIn, staggerContainer } from "../utils/motion";
+import { TypingText, TitleText, InsightCard } from "../components";
+import { staggerContainer } from "../utils/motion";
 import styles from "../styles";
 import { insights } from "../constants";
 

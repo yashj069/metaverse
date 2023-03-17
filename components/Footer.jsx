@@ -1,20 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import {
-  ExploreCard,
-  TypingText,
-  TitleText,
-  StartSteps,
-  NewFeatures,
-} from "../components";
-import {
-  fadeIn,
-  footerVariants,
-  planetVariants,
-  slideIn,
-  staggerContainer,
-  zoomIn,
-} from "../utils/motion";
+import { footerVariants } from "../utils/motion";
 import styles from "../styles";
 import { socials } from "../constants";
 const Footer = () => (

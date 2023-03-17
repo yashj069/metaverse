@@ -1,21 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import {
-  ExploreCard,
-  TypingText,
-  TitleText,
-  StartSteps,
-  NewFeatures,
-} from "../components";
-import {
-  fadeIn,
-  planetVariants,
-  slideIn,
-  staggerContainer,
-  zoomIn,
-} from "../utils/motion";
+import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 import styles from "../styles";
-import { newFeatures } from "../constants";
 const Feedback = () => (
   <section className={`${styles.paddings} relative`}>
     <motion.div
